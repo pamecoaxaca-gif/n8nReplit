@@ -2,3 +2,7 @@ run = ["bash", "main.sh"]
 
 hidden = ["node_modules"]
 entrypoint = "WELCOME.md"
+
+[[ports]]
+localPort = 5678
+externalPort = 80
